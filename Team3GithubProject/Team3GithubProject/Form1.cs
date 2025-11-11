@@ -16,5 +16,25 @@ namespace Team3GithubProject
         {
             InitializeComponent();
         }
+
+        private void btnFtoC_Click(object sender, EventArgs e)
+        {
+            float F = float.Parse( txtFah.Text );
+            float C = (F - 32) * 5.0f / 9.0f;
+            txtCel.Text = C.ToString();
+        }
+
+        private void btnCtoF_Click(object sender, EventArgs e)
+        {
+            float C = float.Parse( txtCel.Text );
+            float F = (C * 9f / 5f) + 32;
+            txtFah.Text = F.ToString();
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtFah.Text = "0.0";
+            txtCel.Text = "0.0";
+        }
     }
 }
