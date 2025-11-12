@@ -121,7 +121,7 @@
             // 
             // btnAnjelica
             // 
-            this.btnAnjelica.Location = new System.Drawing.Point(12, 226);
+            this.btnAnjelica.Location = new System.Drawing.Point(3, 226);
             this.btnAnjelica.Name = "btnAnjelica";
             this.btnAnjelica.Size = new System.Drawing.Size(75, 23);
             this.btnAnjelica.TabIndex = 8;
@@ -132,9 +132,9 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(102, 257);
+            this.listBox1.Location = new System.Drawing.Point(86, 257);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 95);
+            this.listBox1.Size = new System.Drawing.Size(157, 95);
             this.listBox1.TabIndex = 9;
             // 
             // Form1
