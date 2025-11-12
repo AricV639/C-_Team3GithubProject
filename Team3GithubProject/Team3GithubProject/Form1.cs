@@ -36,5 +36,10 @@ namespace Team3GithubProject
             txtFah.Text = "0.0";
             txtCel.Text = "0.0";
         }
+
+        private void AM4Chnge_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
