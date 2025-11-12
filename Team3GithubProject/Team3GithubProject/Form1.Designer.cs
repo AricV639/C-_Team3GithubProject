@@ -36,6 +36,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.AM4Chnge = new System.Windows.Forms.Label();
+            this.btnAnjelica = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // btnFtoC
@@ -110,18 +112,38 @@
             // AM4Chnge
             // 
             this.AM4Chnge.AutoSize = true;
-            this.AM4Chnge.Location = new System.Drawing.Point(86, 294);
+            this.AM4Chnge.Location = new System.Drawing.Point(73, 9);
             this.AM4Chnge.Name = "AM4Chnge";
             this.AM4Chnge.Size = new System.Drawing.Size(78, 13);
             this.AM4Chnge.TabIndex = 7;
             this.AM4Chnge.Text = "Step 4 Change";
             this.AM4Chnge.Click += new System.EventHandler(this.AM4Chnge_Click);
             // 
+            // btnAnjelica
+            // 
+            this.btnAnjelica.Location = new System.Drawing.Point(12, 226);
+            this.btnAnjelica.Name = "btnAnjelica";
+            this.btnAnjelica.Size = new System.Drawing.Size(75, 23);
+            this.btnAnjelica.TabIndex = 8;
+            this.btnAnjelica.Text = "AnjelicaM";
+            this.btnAnjelica.UseVisualStyleBackColor = true;
+            this.btnAnjelica.Click += new System.EventHandler(this.btnAnjelica_Click);
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(102, 257);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(120, 95);
+            this.listBox1.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.btnAnjelica);
             this.Controls.Add(this.AM4Chnge);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -148,6 +170,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label AM4Chnge;
+        private System.Windows.Forms.Button btnAnjelica;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 
