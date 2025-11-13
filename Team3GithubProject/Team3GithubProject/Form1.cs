@@ -41,5 +41,10 @@ namespace Team3GithubProject
         {
 
         }
+
+        private void btnKyleE_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("Kyle E Button was clicked");
+        }
     }
 }
