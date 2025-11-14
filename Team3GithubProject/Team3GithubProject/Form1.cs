@@ -41,5 +41,10 @@ namespace Team3GithubProject
         {
 
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
