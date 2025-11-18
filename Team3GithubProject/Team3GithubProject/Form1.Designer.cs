@@ -36,13 +36,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.AM4Chnge = new System.Windows.Forms.Label();
-            this.btnAric = new System.Windows.Forms.Button();
+            this.btnAnjelica = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // btnFtoC
             // 
-            this.btnFtoC.Location = new System.Drawing.Point(12, 11);
+            this.btnFtoC.Location = new System.Drawing.Point(331, 87);
             this.btnFtoC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnFtoC.Name = "btnFtoC";
             this.btnFtoC.Size = new System.Drawing.Size(119, 66);
@@ -53,7 +53,7 @@
             // 
             // btnCtoF
             // 
-            this.btnCtoF.Location = new System.Drawing.Point(12, 107);
+            this.btnCtoF.Location = new System.Drawing.Point(331, 183);
             this.btnCtoF.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCtoF.Name = "btnCtoF";
             this.btnCtoF.Size = new System.Drawing.Size(119, 66);
@@ -64,7 +64,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(12, 202);
+            this.btnClear.Location = new System.Drawing.Point(331, 278);
             this.btnClear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(119, 66);
@@ -75,7 +75,7 @@
             // 
             // txtFah
             // 
-            this.txtFah.Location = new System.Drawing.Point(152, 32);
+            this.txtFah.Location = new System.Drawing.Point(101, 206);
             this.txtFah.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtFah.Name = "txtFah";
             this.txtFah.Size = new System.Drawing.Size(100, 22);
@@ -83,7 +83,7 @@
             // 
             // txtCel
             // 
-            this.txtCel.Location = new System.Drawing.Point(152, 129);
+            this.txtCel.Location = new System.Drawing.Point(585, 206);
             this.txtCel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtCel.Name = "txtCel";
             this.txtCel.Size = new System.Drawing.Size(100, 22);
@@ -92,7 +92,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(162, 56);
+            this.label1.Location = new System.Drawing.Point(111, 230);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 16);
             this.label1.TabIndex = 5;
@@ -101,7 +101,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(176, 157);
+            this.label2.Location = new System.Drawing.Point(609, 234);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 16);
             this.label2.TabIndex = 6;
@@ -118,32 +118,22 @@
             this.AM4Chnge.Text = "Step 4 Change";
             this.AM4Chnge.Click += new System.EventHandler(this.AM4Chnge_Click);
             // 
-            // btnAric
+            // btnExit
             // 
-            this.btnAric.Location = new System.Drawing.Point(434, 16);
-            this.btnAric.Name = "btnAric";
-            this.btnAric.Size = new System.Drawing.Size(78, 38);
-            this.btnAric.TabIndex = 8;
-            this.btnAric.Text = "Aric V.";
-            this.btnAric.UseVisualStyleBackColor = true;
-            this.btnAric.Click += new System.EventHandler(this.btnAric_Click);
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(437, 192);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(230, 52);
-            this.listBox1.TabIndex = 9;
+            this.btnExit.Location = new System.Drawing.Point(686, 399);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(70, 39);
+            this.btnExit.TabIndex = 8;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.btnAric);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.AM4Chnge);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -170,8 +160,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label AM4Chnge;
-        private System.Windows.Forms.Button btnAric;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button btnExit;
     }
 }
 

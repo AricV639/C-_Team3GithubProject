@@ -42,9 +42,9 @@ namespace Team3GithubProject
 
         }
 
-        private void btnAric_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Add("The 'Aric' button was clicked");
+            this.Close();
         }
     }
 }
