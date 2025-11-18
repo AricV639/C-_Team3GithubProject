@@ -18,5 +18,5 @@ namespace Team3GithubProject
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
-    }
+    } //Kyle's comment
 }
