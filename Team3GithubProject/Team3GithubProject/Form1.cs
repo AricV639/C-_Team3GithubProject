@@ -46,5 +46,10 @@ namespace Team3GithubProject
         {
             this.Close();
         }
+
+        private void btnAnjel_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("Anjelica");
+        }
     }
 }
