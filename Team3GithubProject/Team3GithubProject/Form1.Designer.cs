@@ -117,6 +117,9 @@
             this.AM4Chnge.TabIndex = 7;
             this.AM4Chnge.Text = "Step 4 Change";
             this.AM4Chnge.Click += new System.EventHandler(this.AM4Chnge_Click);
+
+            this.btnExit = new System.Windows.Forms.Button();
+
             // 
             // btnExit
             // 
@@ -161,6 +164,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label AM4Chnge;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnAnjelica;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 
