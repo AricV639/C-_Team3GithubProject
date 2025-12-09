@@ -46,5 +46,10 @@ namespace Team3GithubProject
         {
             this.Close();
         }
+
+        private void btnAric_Click(object sender, EventArgs e)
+        {
+            listBox2.Items.Add("Aric's button was clicked");
+        }
     }
 }
