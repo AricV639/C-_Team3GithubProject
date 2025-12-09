@@ -38,7 +38,7 @@
             this.AM4Chnge = new System.Windows.Forms.Label();
             this.btnAnjelica = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.btnExit = new System.Windows.Forms.Button();
+            //this.btnExit = new System.Windows.Forms.Button();
             this.btnAric = new System.Windows.Forms.Button();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
